@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ecommerce-nx-nest-next-graphql-progsql/api/data-access-db": [
+        "libs/api/data-access-db/src/index.ts"
+      ],
+      "@ecommerce-nx-nest-next-graphql-progsql/api/feature-user": [
+        "libs/api/feature-user/src/index.ts"
+      ],
+      "@ecommerce-nx-nest-next-graphql-progsql/api/generated-db-types": [
+        "libs/api/generated-db-types/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
